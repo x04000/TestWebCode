@@ -1,4 +1,339 @@
-A
-B
-C
-D
+# JS
+function start() {
+  document.write('<!DOCTYPE html><html><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width"> <title>AndorraAdventure [WebTest]</title> <link href="style.css" rel="stylesheet" type="text/css" /></head><body> <script src="script.js"></script> <div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="main" align="center" class="blur" style="border: ridge #000000 5px;"> <h1 style="color:CYAN">Welcome to Andorra!</h1> <h1 style="color:GREEN">Where better than in a country surrounded by nature?</h1> <p></p> <p></p> <h2 style="color:BLACK"><b>DO YOU KNOW WHAT TO DO IN SUMMER? TAKE NOTE!</span></b><p>Here we present a selection of proposals to enjoy this season in our country. Experiences related to nature, which is friendly and exuberant to those who dare to get to know it.</p></h2> <p></p> <img src="assets/lake-andorra.png" width="720px"> <img src="assets/city-andorra.png" width="720px"> </div></body></html>');
+}
+function main() {
+  document.getElementById("menu").parentNode.removeChild(document.getElementById("menu"));
+  if (document.getElementById("main")) { document.getElementById("main").parentNode.removeChild(document.getElementById("main")); }
+  if (document.getElementById("dates")) { document.getElementById("dates").parentNode.removeChild(document.getElementById("dates")); }
+  if (document.getElementById("accommodation")) { document.getElementById("accommodation").parentNode.removeChild(document.getElementById("accommodation")); }
+  if (document.getElementById("attractions")) { document.getElementById("attractions").parentNode.removeChild(document.getElementById("attractions")); }
+  if (document.getElementById("transport")) { document.getElementById("transport").parentNode.removeChild(document.getElementById("transport")); }
+  if (document.getElementById("credits")) { document.getElementById("credits").parentNode.removeChild(document.getElementById("credits")); }
+  document.write('<div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="main" align="center" class="blur" style="border: ridge #000000 5px;"> <h1 style="color:CYAN">Welcome to Andorra!</h1> <h1 style="color:GREEN">Where better than in a country surrounded by nature?</h1> <p></p> <p></p> <h2 style="color:BLACK"><b>DO YOU KNOW WHAT TO DO IN SUMMER? TAKE NOTE!</span></b><p>Here we present a selection of proposals to enjoy this season in our country. Experiences related to nature, which is friendly and exuberant to those who dare to get to know it.</p></h2> <p></p> <img src="assets/lake-andorra.png" width="720px"> <img src="assets/city-andorra.png" width="720px"> </div>');
+};
+
+function dates() {
+  document.getElementById("menu").parentNode.removeChild(document.getElementById("menu"));
+  if (document.getElementById("main")) { document.getElementById("main").parentNode.removeChild(document.getElementById("main")); }
+  if (document.getElementById("dates")) { document.getElementById("dates").parentNode.removeChild(document.getElementById("dates")); }
+  if (document.getElementById("accommodation")) { document.getElementById("accommodation").parentNode.removeChild(document.getElementById("accommodation")); }
+  if (document.getElementById("attractions")) { document.getElementById("attractions").parentNode.removeChild(document.getElementById("attractions")); }
+  if (document.getElementById("transport")) { document.getElementById("transport").parentNode.removeChild(document.getElementById("transport")); }
+  if (document.getElementById("credits")) { document.getElementById("credits").parentNode.removeChild(document.getElementById("credits")); }
+  document.write('<div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="dates" align="center" class="blur" style="border: ridge #000000 5px;"> <img src="assets/dates.png" width="480px"> <p></p> <img src="assets/calendar.png" width="520px"> <p></p> <h2 style="color:CYAN">An incredible 4 days of adventure in Andorra!</h2> <p style="color:CYAN">[4 days and 3 nights]</p> </div>');
+};
+
+function accommodation() {
+  document.getElementById("menu").parentNode.removeChild(document.getElementById("menu"));
+  if (document.getElementById("main")) { document.getElementById("main").parentNode.removeChild(document.getElementById("main")); }
+  if (document.getElementById("dates")) { document.getElementById("dates").parentNode.removeChild(document.getElementById("dates")); }
+  if (document.getElementById("accommodation")) { document.getElementById("accommodation").parentNode.removeChild(document.getElementById("accommodation")); }
+  if (document.getElementById("attractions")) { document.getElementById("attractions").parentNode.removeChild(document.getElementById("attractions")); }
+  if (document.getElementById("transport")) { document.getElementById("transport").parentNode.removeChild(document.getElementById("transport")); }
+  if (document.getElementById("credits")) { document.getElementById("credits").parentNode.removeChild(document.getElementById("credits")); }
+  document.write('<div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="accommodation" align="center" class="blur" style="border: ridge #000000 5px;"> <img src="assets/accommodation.png" width="520px"> <p></p> <button style="background-color:BLACK"><h1 style="color:white" onclick="hotelselect1()">| | | | | > | | | | |</h1></button> <h1 id="hotel" span style="border-image: initial; border: 5px solid black; color:black;">Suites Plaza Hotel & Wellness Andorra</h1> <button style="background-color:BLACK" onclick="hotelselect2()"><h1 style="color:white">| | | | | < | | | | |</h1></button> <p></p> <h2 id ="pricenight">Price/night: 165€</h2> <h2 id="totalprice">Total price: 495€</h2> <p></p> <h2><a href="https://www.booking.com/hotel/ad/crowneplaza.es.html">[Web]</a></h2> </div>');
+}
+
+function attractions() {
+  document.getElementById("menu").parentNode.removeChild(document.getElementById("menu"));
+  if (document.getElementById("main")) { document.getElementById("main").parentNode.removeChild(document.getElementById("main")); }
+  if (document.getElementById("dates")) { document.getElementById("dates").parentNode.removeChild(document.getElementById("dates")); }
+  if (document.getElementById("accommodation")) { document.getElementById("accommodation").parentNode.removeChild(document.getElementById("accommodation")); }
+  if (document.getElementById("attractions")) { document.getElementById("attractions").parentNode.removeChild(document.getElementById("attractions")); }
+  if (document.getElementById("transport")) { document.getElementById("transport").parentNode.removeChild(document.getElementById("transport")); }
+  if (document.getElementById("credits")) { document.getElementById("credits").parentNode.removeChild(document.getElementById("credits")); }
+  document.write('<div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="attractions" align="center" class="blur" style="border: ridge #000000 5px;"> <img src="assets/attractions.png" width="480px"> <p></p> <h2>❒ Sky Station Baí Taül | Cost: 108€ <a href="https://www.boitaull.cat/es/invierno/estacion/">[Web]</a></h2> <h2>❒ Super U Mall | Cost: 0€ <a href="https://www.superu.mu/en">[Web]</a></h2> <h2>❒ Tobotronc Adventure Park Andorra | Cost: 110€ <a href="https://naturland.ad/actividades-tobotronc">[Web]</a></h2> <h2>❒ Jouristic Guides by bike or hiking | Cost: 24€ <a href="https://visitandorra.com/en/nature/hiking-guide-trails-of-andorra/">[Web]</a></h2> <h2>❒ Museum Caimen Thysen | Cost: 18€ <a href="https://visitandorra.com/es/cultura/">[Web]</a></h2> </div>');
+}
+
+function transport() {
+  document.getElementById("menu").parentNode.removeChild(document.getElementById("menu"));
+  if (document.getElementById("main")) { document.getElementById("main").parentNode.removeChild(document.getElementById("main")); }
+  if (document.getElementById("dates")) { document.getElementById("dates").parentNode.removeChild(document.getElementById("dates")); }
+  if (document.getElementById("accommodation")) { document.getElementById("accommodation").parentNode.removeChild(document.getElementById("accommodation")); }
+  if (document.getElementById("attractions")) { document.getElementById("attractions").parentNode.removeChild(document.getElementById("attractions")); }
+  if (document.getElementById("transport")) { document.getElementById("transport").parentNode.removeChild(document.getElementById("transport")); }
+  if (document.getElementById("credits")) { document.getElementById("credits").parentNode.removeChild(document.getElementById("credits")); }
+  document.write('<div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="transport" align="center" class="blur" style="border: ridge #000000 5px;"> <img src="assets/flights.png" width="480px"> <p></p> <h1 style="color:BLUE">[Plane of 24th May and 27th of May]</h1> <h2 style="color:BLACK">❒ Price/person: 107€ ❒</h2> <h2 style="color:BLACK">❒ Total price: 428€ ❒</h2> <p></p> <h1 style="color:BLUE">[Car of 24th May and 27th of May]</h1> <h2 style="color:BLACK">❒ Price/travel: 36€ ❒</h2> <h2 style="color:BLACK">❒ Total price: 72€ ❒</h2> <p></p> <h1 style="color:RED">❐ Transport total price: 500€ ❐</h1> </div>');
+}
+
+function credits() {
+  document.getElementById("menu").parentNode.removeChild(document.getElementById("menu"));
+  if (document.getElementById("main")) { document.getElementById("main").parentNode.removeChild(document.getElementById("main")); }
+  if (document.getElementById("dates")) { document.getElementById("dates").parentNode.removeChild(document.getElementById("dates")); }
+  if (document.getElementById("accommodation")) { document.getElementById("accommodation").parentNode.removeChild(document.getElementById("accommodation")); }
+  if (document.getElementById("attractions")) { document.getElementById("attractions").parentNode.removeChild(document.getElementById("attractions")); }
+  if (document.getElementById("transport")) { document.getElementById("transport").parentNode.removeChild(document.getElementById("transport")); }
+  if (document.getElementById("credits")) { document.getElementById("credits").parentNode.removeChild(document.getElementById("credits")); }
+  document.write('<div style="background-color:BLACK" id="menu"> <img src="assets/andorralogo.png" width="200px"> <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">| Main |</p></button> <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">| Dates |</p></button> <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">| Accommodation |</p></button> <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">| Main Attractions |</p></button> <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">| Flight Prices & Info |</p></button> <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">| Credits |</p></button> </div> <p></p> <div id="dates" align="center" class="blur" style="border: ridge #000000 5px;"> <img src="assets/credits.png" width="480px"> <p></p> <h1 style="color:CYAN">Investigation by Alvaro</h1> <h1 style="color:CYAN">Web designed by Adrian</h1> <p></p> <h2 style="color:RED"><a href="https://raw.githubusercontent.com/x04000/TestWebCode/main/code.txt">[Used code for the web]</a></h2> <h2>More of 350 lines of code and 30000 characters :)</h2> </div>');
+}
+
+function hotelselect1() {
+  document.getElementById("hotel").innerHTML = "Eurostars Andorra";
+  document.getElementById("pricenight").innerHTML = "Price/night: 223€";
+  document.getElementById("totalprice").innerHTML = "Total price: 670€";
+}
+
+function hotelselect2() {
+  document.getElementById("hotel").innerHTML = "Suites Plaza Hotel & Wellness Andorra";
+  document.getElementById("pricenight").innerHTML = "Price/night: 165€";
+  document.getElementById("totalprice").innerHTML = "Total price: 495€";
+}
+
+# HTML Index
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <button onclick="start()" class="startbutton"><h1>> Start web :)</h1></button>
+</body>
+
+</html>
+
+# CSS
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  background-image: url("https://ofertasfindeano.com/wp-content/uploads/2017/11/actaartprinc.jpg")
+}
+
+.blur {
+  backdrop-filter: blur(5px);
+}
+
+.startbutton {
+  background-color: black;
+  color: white;
+}
+
+# Accommodation
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div style="background-color:BLACK" id="menu">
+    <img src="assets/andorralogo.png" width="200px">
+    <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">|  Main  |</p></button>
+    <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">|  Dates  |</p></button>
+    <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">|  Accommodation  |</p></button>
+    <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">|  Main Attractions  |</p></button>
+    <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">|  Flight Prices & Info  |</p></button>
+    <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">|  Credits  |</p></button>
+  </div>
+  <p></p>
+  <div id="accommodation" align="center" class="blur" style="border: ridge #000000 5px;">
+    <img src="assets/accommodation.png" width="520px">
+    <p></p>
+    <button style="background-color:BLACK"><h1 style="color:white" onclick="hotelselect1()">| | | | |  >  | | | | |</h1></button>
+    <h1 id="hotel" span style="border-image: initial; border: 5px solid black; color:black;">Suites Plaza Hotel & Wellness Andorra</h1>
+    <button style="background-color:BLACK" onclick="hotelselect2()"><h1 style="color:white">| | | | |  <  | | | | |</h1></button>
+    <p></p>
+    <h2 id ="pricenight">Price/night: 165€</h2>
+    <h2 id="totalprice">Total price: 495€</h2>
+    <p></p>
+    <h2><a href="https://www.booking.com/hotel/ad/crowneplaza.es.html">[Web]</a></h2>
+  </div>
+</body>
+
+</html>
+
+# Attractions
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div style="background-color:BLACK" id="menu">
+    <img src="assets/andorralogo.png" width="200px">
+    <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">|  Main  |</p></button>
+    <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">|  Dates  |</p></button>
+    <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">|  Accommodation  |</p></button>
+    <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">|  Main Attractions  |</p></button>
+    <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">|  Flight Prices & Info  |</p></button>
+    <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">|  Credits  |</p></button>
+  </div>
+  <p></p>
+  <div id="attractions" align="center" class="blur" style="border: ridge #000000 5px;">
+    <img src="assets/attractions.png" width="480px">
+    <p></p>
+    <h2>❒ Sky Station Baí Taül | Cost: 108€ <a href="https://www.boitaull.cat/es/invierno/estacion/">[Web]</a></h2>
+    <h2>❒ Super U Mall | Cost: 0€ <a href="https://www.superu.mu/en">[Web]</a></h2>
+    <h2>❒ Tobotronc Adventure Park Andorra | Cost: 110€ <a href="https://naturland.ad/actividades-tobotronc">[Web]</a></h2>
+    <h2>❒ Jouristic Guides by bike or hiking | Cost: 24€ <a href="https://visitandorra.com/en/nature/hiking-guide-trails-of-andorra/">[Web]</a></h2>
+    <h2>❒ Museum Caimen Thysen | Cost: 18€ <a href="https://visitandorra.com/es/cultura/">[Web]</a></h2>
+  </div>
+</body>
+
+</html>
+
+# Credits
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div style="background-color:BLACK" id="menu">
+    <img src="assets/andorralogo.png" width="200px">
+    <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">|  Main  |</p></button>
+    <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">|  Dates  |</p></button>
+    <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">|  Accommodation  |</p></button>
+    <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">|  Main Attractions  |</p></button>
+    <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">|  Flight Prices & Info  |</p></button>
+    <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">|  Credits  |</p></button>
+  </div>
+  <p></p>
+  <div id="dates" align="center" class="blur" style="border: ridge #000000 5px;">
+    <img src="assets/credits.png" width="480px">
+    <p></p>
+    <h1 style="color:CYAN">Investigation by Alvaro</h1>
+    <h1 style="color:CYAN">Web designed by Adrian</h1>
+    <p></p>
+    <h2 style="color:RED"><a href="https://raw.githubusercontent.com/x04000/TestWebCode/main/code.txt">[Used code for the web]</a></h2>
+    <h2>More of 350 lines of code and 30000 characters :)</h2>
+  </div>
+</body>
+
+</html>
+
+# Dates
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div style="background-color:BLACK" id="menu">
+    <img src="assets/andorralogo.png" width="200px">
+    <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">|  Main  |</p></button>
+    <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">|  Dates  |</p></button>
+    <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">|  Accommodation  |</p></button>
+    <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">|  Main Attractions  |</p></button>
+    <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">|  Flight Prices & Info  |</p></button>
+    <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">|  Credits  |</p></button>
+  </div>
+  <p></p>
+  <div id="dates" align="center" class="blur" style="border: ridge #000000 5px;">
+    <img src="assets/dates.png" width="480px">
+    <p></p>
+    <img src="assets/calendar.png" width="520px">
+    <p></p>
+    <h2 style="color:CYAN">An incredible 4 days of adventure in Andorra!</h2>
+    <p style="color:CYAN">[4 days and 3 nights]</p>
+  </div>
+</body>
+
+</html>
+
+# Main
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div style="background-color:BLACK" id="menu">
+    <img src="assets/andorralogo.png" width="200px">
+    <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">|  Main  |</p></button>
+    <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">|  Dates  |</p></button>
+    <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">|  Accommodation  |</p></button>
+    <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">|  Main Attractions  |</p></button>
+    <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">|  Flight Prices & Info  |</p></button>
+    <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">|  Credits  |</p></button>
+  </div>
+  <p></p>
+  <div id="main" align="center" class="blur" style="border: ridge #000000 5px;">
+    <h1 style="color:CYAN">Welcome to Andorra!</h1>
+    <h1 style="color:GREEN">Where better than in a country surrounded by nature?</h1>
+    <p></p>
+    <p></p>
+    <h2 style="color:BLACK"><b>DO YOU KNOW WHAT TO DO IN SUMMER? TAKE NOTE!</span></b><p>Here we present a selection of proposals to enjoy this season in our country. Experiences related to nature, which is friendly and exuberant to those who dare to get to know it.</p></h2>
+    <p></p>
+    <img src="assets/lake-andorra.png" width="720px">
+    <img src="assets/city-andorra.png" width="720px">
+  </div>
+</body>
+
+</html>
+
+# Transport
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AndorraAdventure [WebTest]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <div style="background-color:BLACK" id="menu">
+    <img src="assets/andorralogo.png" width="200px">
+    <button style="background-color:BLACK" onclick="main()"><h1 style="color:WHITE">|  Main  |</p></button>
+    <button style="background-color:BLACK" onclick="dates()"><h1 style="color:WHITE">|  Dates  |</p></button>
+    <button style="background-color:BLACK" onclick="accommodation()"><h1 style="color:WHITE">|  Accommodation  |</p></button>
+    <button style="background-color:BLACK" onclick="attractions()"><h1 style="color:WHITE">|  Main Attractions  |</p></button>
+    <button style="background-color:BLACK" onclick="transport()"><h1 style="color:WHITE">|  Flight Prices & Info  |</p></button>
+    <button style="background-color:BLACK" onclick="credits()"><h1 style="color:WHITE">|  Credits  |</p></button>
+  </div>
+  <p></p>
+  <div id="transport" align="center" class="blur" style="border: ridge #000000 5px;">
+    <img src="assets/flights.png" width="480px">
+    <p></p>
+    <h1 style="color:BLUE">[Plane of 24th May and 27th of May]</h1>
+    <h2 style="color:BLACK">❒ Price/person: 107€ ❒</h2>
+    <h2 style="color:BLACK">❒ Total price: 428€ ❒</h2>
+    <p></p>
+    <h1 style="color:BLUE">[Car of 24th May and 27th of May]</h1>
+    <h2 style="color:BLACK">❒ Price/travel: 36€ ❒</h2>
+    <h2 style="color:BLACK">❒ Total price: 72€ ❒</h2>
+    <p></p>
+    <h1 style="color:RED">❐ Transport total price: 500€ ❐</h1>
+  </div>
+</body>
+
+</html>
